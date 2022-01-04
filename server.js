@@ -6,8 +6,8 @@ const mongoose = require("mongoose");
 const PORT = process.env.PORT;
 const app = express();
 
-app.get("/", (req, res) => {
-  res.send("HELLO WORLD");
+app.get("/api/v1/bootcamps", (req, res) => {
+  res.status(200).json({ success: true, data: { name: "Brad" } });
 });
 
 mongoose.connect(
