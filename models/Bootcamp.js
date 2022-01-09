@@ -18,7 +18,7 @@ const BootcampSchema = new Schema({
   },
   website: {
     type: String ,
-    match: [/(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g, "Please add a valid url"‌​]
+    match: [/(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g , "Please add a valid url"‌​]
   },
   phone: {
     type: String ,
